@@ -126,6 +126,7 @@ a:focus, a:hover {
     padding: 15px;
     letter-spacing: 2px;
     position: relative;
+    margin-bottom: 30px;
 }
 .main-title:before {
     content: "";
@@ -162,6 +163,12 @@ a:focus, a:hover {
     -o-transition: background-position 0.6s ease;
     transition: background-position 0.6s ease;
 }
+.main-button:hover {
+    background-position: right center;
+    -webkit-transition: background-position 0.6s ease;
+    -o-transition: background-position 0.6s ease;
+    transition: background-position 0.6s ease;
+}
 .title-bottom-flex {
     display: flex;
     align-items: center;
@@ -179,6 +186,34 @@ a:focus, a:hover {
     width: 50%;
     font-size: 24px;
     background-color: rgba(255, 255, 255, 0.5);
+}
+button.close {
+    font-size: 26px;
+    z-index: 1;
+    position: relative;
+    right: 15px;
+    top: 7px;
+}
+.owl-feedback-form input, .owl-feedback-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid rgba(122, 122, 122, 0.25);
+    border-radius: 2px;
+}
+.owl-feedback-form a {
+    background-color: #f1729e;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #f1729e;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+}
+.owl-feedback-form a:hover {
+    color: #f1729e;
+    background-color: #fff;
 }
 @media (min-width: 768px) {
     .navbar-nav {

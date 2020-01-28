@@ -36,6 +36,25 @@
         </div>
     </div>
 </header>
+<div class="modal fade" id="modal-send" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+                <span aria-hidden="true">×</span>
+            </button>
+            <div class="modal-body">
+                <div class="owl-feedback-form js-send-form">
+                    <h3>Заполните и отправьте заявку!</h3>
+                    <input type="text" name="name" placeholder="Ваше имя">
+                    <input type="text" name="phone" placeholder="Телефон">
+                    <input type="text" name="email" placeholder="email">
+                    <textarea rows="5" name="comment" placeholder="Ваше сообщение"></textarea>
+                    <a href="#" class="js-send-btn">Отправить заявку</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container">
     <nav class="navbar navbar-default">
         <div class="navbar-header">
@@ -73,7 +92,7 @@
         подгузники для взрослых</h1>
         <div class="title-bottom-flex">
             <div class="title-bottom-btn">
-                <button type="button" class="main-button">ЗАКАЗАТЬ</button>
+                <button type="button" class="main-button" data-target="#modal-send" data-toggle="modal">ЗАКАЗАТЬ</button>
                 <div class="title-bottom-btn-text">одноразовые </div>
                 <div class="title-bottom-btn-text-small">ТУ 32.50.50-001-19127789-2018</div>
             </div>
