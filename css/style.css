@@ -260,6 +260,16 @@ button.close {
 .product-sizes-item:hover img {
     transform: scale(1.1);
 }
+.table-flex-row {
+    display: flex;
+    justify-content: space-around;
+}
+.table-flex-row img {
+    width: 50px;
+}
+.up-title-table-img, .up-title-table-desk {
+    text-align: center;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
