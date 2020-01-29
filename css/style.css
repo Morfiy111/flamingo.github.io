@@ -314,6 +314,16 @@ button.close {
 }
 .table-border-size {
     border:1px solid rgba(241, 114, 158, 0.4);
+    margin-bottom: 50px;
+}
+.main-sub-title3:before {
+    width: 180px;
+}
+.button-center-block {
+    text-align: center;
+}
+.goods-banner-block img {
+    width: 100%;
 }
 @media (min-width: 768px) {
     .navbar-nav {
