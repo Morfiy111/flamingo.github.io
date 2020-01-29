@@ -427,6 +427,7 @@ button.close {
 }
 .nav-tabs > li > a {
     color: #f1729e;
+    border: none;
 }
 .footer-page {
     background-color: #00547b;
