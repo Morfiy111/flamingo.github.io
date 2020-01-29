@@ -389,6 +389,45 @@ button.close {
 .iconblock-2 {
     width: 24%;
 }
+.image-content-title-about {
+    background-image: url("../images/bg-features-desktop.jpg");
+    background-position: 77%;
+    position: relative;
+    padding: 20px;
+}
+.main-sub-title5:before {
+    width: 44px;
+}
+.overlay-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to left, transparent 0, #fff 100%);
+}
+.image-content-title-about p {
+    position: relative;
+}
+.main-sub-title6:before {
+    width: 148px;
+}
+.call-manager-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.nav-tabs {
+    border-bottom: none;
+    margin-bottom: 30px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #fff;
+    background-color: #f1729e;
+    border: none;
+}
+.nav-tabs > li > a {
+    color: #f1729e;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
