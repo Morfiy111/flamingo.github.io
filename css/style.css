@@ -127,6 +127,7 @@ a:focus, a:hover {
     letter-spacing: 2px;
     position: relative;
     background-color: rgba(255, 255, 255, 0.5);
+    color: #025f65;;
 }
 .main-title:before {
     content: "";
