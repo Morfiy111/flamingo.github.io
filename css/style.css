@@ -393,7 +393,7 @@ button.close {
     background-image: url("../images/bg-features-desktop.jpg");
     background-position: 77%;
     position: relative;
-    padding: 20px;
+    padding: 30px 20px;
 }
 .main-sub-title5:before {
     width: 44px;
@@ -427,6 +427,39 @@ button.close {
 }
 .nav-tabs > li > a {
     color: #f1729e;
+}
+.footer-page {
+    background-color: #00547b;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+.footer-flex-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    color: #fff;
+}
+.footer-flex-block a {
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+.call-manager-block {
+    margin-bottom: 40px;
+}
+.footer-address-item i {
+    margin-right: 5px;
+}
+.footer-address {
+    text-align: right;
+}
+.footer-copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+.footer-copyright a {
+    color: #fff;
 }
 @media (min-width: 768px) {
     .navbar-nav {
@@ -487,6 +520,13 @@ button.close {
     }
     .iconblock-2 {
         width: 32%;
+    }
+    .footer-flex-block {
+        flex-wrap: wrap;
+    }
+    .footer-address {
+        text-align: left;
+        width: 100%;
     }
 }
 @media(max-width: 541px) {
@@ -555,5 +595,21 @@ button.close {
     }
     .main-sub-title4:before {
         width: 79px;
+    }
+    .footer-links {
+        margin-right: 20px;
+    }
+    .footer-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .main-sub-title5:before {
+        width: 27px;
+    }
+    .main-sub-title6:before {
+        width: 100px;
+    }
+    .call-manager-title {
+        font-size: 18px;
     }
 }
