@@ -10,6 +10,12 @@ a, button {
 a:focus, a:hover {
     text-decoration: none;
 }
+.page-content {
+    margin-top: 30px;
+}
+.main-title {
+    margin-bottom: 30px;
+}
 .header-row-flex {
     display: flex;
     align-items: center;
@@ -482,6 +488,37 @@ button.close {
     width: 56px;
     height: 66px;
 }
+.partners-color-green {
+    color: #00aab5;
+    font-weight: bold;
+}
+.partners-flex-block {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #00aab5;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+.partners-block-item {
+    width: 49%;
+}
+.partners-block-item a {
+    color: #f1729e;
+}
+.partners-block-item a:hover {
+    color: #00aab5;
+}
+.breadcrumb {
+    background-color: transparent;
+    padding: 15px 0 15px 0;
+}
+.breadcrumb a, .breadcrumb span {
+    color: #f1729e;
+    padding: 0 2px;
+}
+.breadcrumb > .active {
+    color: #00aab5;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -547,6 +584,12 @@ button.close {
     }
     .footer-address {
         text-align: left;
+        width: 100%;
+    }
+    .partners-flex-block {
+        flex-direction: column;
+    }
+    .partners-block-item {
         width: 100%;
     }
 }
