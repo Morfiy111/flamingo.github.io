@@ -558,9 +558,14 @@ button.close {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 .page-address-item {
     width: 50%;
+}
+.contact-page-address {
+    width: 100%;
+    text-align: center;
 }
 .page-address-item a {
     color: #f1729e;
@@ -649,6 +654,9 @@ button.close {
         width: 32%;
         margin-bottom: 20px;
     }
+    .page-address-item {
+        width: 100%;
+    }
 }
 @media(max-width: 541px) {
     .header-contact-block a {
@@ -735,5 +743,8 @@ button.close {
     }
     .galery-item {
         width: 48%;
+    }
+    .page-address-item a {
+        font-size: 21px;
     }
 }
