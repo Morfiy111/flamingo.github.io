@@ -577,6 +577,41 @@ button.close {
 .contact-page-map {
     margin-bottom: 40px;
 }
+.catalog-goods {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+.catalog-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #f1729e;
+    border-radius: 4px;
+}
+.catalog-image {
+    position: relative;
+}
+.catalog-image img {
+    width: 100%;
+}
+.catalog-title {
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    height: 58px;
+}
+.catalog-btn {
+    width: 100%;
+}
+.catalog-item .main-button {
+    display: block;
+    width: 100%;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -655,6 +690,9 @@ button.close {
         margin-bottom: 20px;
     }
     .page-address-item {
+        width: 100%;
+    }
+    .catalog-item {
         width: 100%;
     }
 }
