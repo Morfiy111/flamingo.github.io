@@ -692,6 +692,10 @@ button.close {
 .language__img_active {
     opacity: 1;
 }
+.modal-table-catalog {
+    text-align: center;
+    width: 100%;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
