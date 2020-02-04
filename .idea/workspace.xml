@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="95f3748d-15af-445a-ad4e-009fb9315415" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/consumer.html" beforeDir="false" afterPath="$PROJECT_DIR$/consumer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +21,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/consumer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="101" column="34" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="34" />
+            <state relative-caret-position="415">
+              <caret line="97" column="10" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -75,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="354">
@@ -105,8 +104,8 @@
         <option value="$PROJECT_DIR$/partners.html" />
         <option value="$PROJECT_DIR$/flamingo.html" />
         <option value="$PROJECT_DIR$/catalog.html" />
-        <option value="$PROJECT_DIR$/consumer.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/consumer.html" />
       </list>
     </option>
   </component>
@@ -190,12 +189,12 @@
       <workItem from="1580712218525" duration="927000" />
       <workItem from="1580729396531" duration="646000" />
       <workItem from="1580731787005" duration="2899000" />
-      <workItem from="1580801068514" duration="9746000" />
+      <workItem from="1580801068514" duration="9799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66456000" />
+    <option name="totallyTimeSpent" value="66509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="189" y="22" width="1371" height="917" extended-state="0" />
@@ -290,17 +289,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="101" column="34" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
           <caret line="764" column="5" lean-forward="true" selection-start-line="764" selection-start-column="5" selection-end-line="764" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="97" column="10" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
         </state>
       </provider>
     </entry>
