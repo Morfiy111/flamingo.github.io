@@ -601,9 +601,12 @@ button.close {
 }
 .catalog-title {
     margin: 15px 0;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    height: 58px;
+    text-align: center;
+}
+.catalog-title span {
+    display: block;
 }
 .catalog-btn {
     width: 100%;
