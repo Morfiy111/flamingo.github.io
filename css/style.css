@@ -680,6 +680,7 @@ button.close {
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
+    z-index: 1;
 }
 
 .language__img {
