@@ -561,7 +561,8 @@ button.close {
     flex-wrap: wrap;
 }
 .page-address-item {
-    width: 50%;
+    width: 49%;
+    margin-bottom: 20px;
 }
 .contact-page-address {
     width: 100%;
@@ -652,6 +653,26 @@ button.close {
 .feedback-link {
     color: #f1729e;
 }
+.video-block {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.flex-consumer i {
+    color: #f1729e;
+    font-size: 24px;
+    margin-right: 12px;
+}
+.flex-consumer {
+    display: flex;
+}
+.instruction-blocks {
+    display: flex;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+.instruction-blocks img {
+    width: 50%;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -741,6 +762,9 @@ button.close {
     .dealers-flex-item {
         width: 180px;
         margin-bottom: 15px;
+    }
+    .instruction-blocks img {
+        width: 100%;
     }
 }
 @media(max-width: 541px) {
