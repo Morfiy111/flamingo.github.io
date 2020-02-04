@@ -646,6 +646,9 @@ button.close {
     border-radius: 2px;
     background-color: transparent;
 }
+.feedback-link {
+    color: #f1729e;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
