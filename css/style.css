@@ -59,7 +59,7 @@ a:focus, a:hover {
 }
 .header-contact-block a {
     color: #f1729e;
-    font-size: 24px;
+    font-size: 22px;
     margin-left: 15px;
 }
 .header-contact-block a:hover {
@@ -686,7 +686,7 @@ button.close {
 .language__img {
     margin: 2px;
     cursor: pointer;
-    opacity: .5;
+    opacity: .8;
 }
 
 .language__img:hover,
