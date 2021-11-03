@@ -147,11 +147,12 @@ a:focus, a:hover {
     right: -14px;
 }
 .image-content-title {
-    background-image: url("../images/bg-page-header-desktop.jpg");
+    background-image: url("../images/foto2.jpg");
     background-position: 71%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin-bottom: 40px;
+    padding: 40px 0;
 }
 .main-button {
     padding: 12px 22px;
@@ -162,6 +163,10 @@ a:focus, a:hover {
 .main-button:hover {
     color: #0089c1;
     background-color: #fff;
+}
+.subtitle-page {
+    width: 350px;
+    margin-bottom: 40px;
 }
 .title-bottom-flex {
     display: flex;
@@ -179,7 +184,7 @@ a:focus, a:hover {
 .title-bottom-slogan {
     width: 50%;
     font-size: 24px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 button.close {
     font-size: 26px;
