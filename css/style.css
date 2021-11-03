@@ -23,8 +23,7 @@ a:focus, a:hover {
     padding: 10px 0;
 }
 .header-block {
-    background-color: #fdf9ea;
-    border-bottom: 2px solid #f1729e;
+    border-bottom: 2px solid #0089c1;
 }
 .header-contact-block {
     display: flex;
@@ -50,20 +49,20 @@ a:focus, a:hover {
     padding: 12px 22px;
     border-radius: 4px;
     color: #fff;
-    background-color: #f1729e;
-    border: 2px solid #f1729e;
+    background-color: #0089c1;
+    border: 2px solid #0089c1;
 }
 .order-button-click:hover {
     background-color: transparent;
-    color: #f1729e;
+    color: #0089c1;
 }
 .header-contact-block a {
-    color: #f1729e;
+    color: #0089c1;
     font-size: 22px;
     margin-left: 15px;
 }
 .header-contact-block a:hover {
-    color: #00aab5;
+    color: #9d9d9d;
 }
 .navbar-default {
     background-color: transparent;
@@ -73,15 +72,10 @@ a:focus, a:hover {
 .navbar-default .navbar-nav > li > a {
     color: #333;
     font-weight: bold;
+    border-bottom: 2px solid transparent
 }
-.navbar-nav > li:hover a::after, .navbar-nav > li > a:focus::after {
-    content: '';
-    width: 100%;
-    height: 4px;
-    background-color: #f1729e;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.navbar-default .navbar-nav > li > a:hover {
+    border-bottom: 2px solid #0089c1;
 }
 .owl-prev {
     position: absolute;
@@ -103,12 +97,12 @@ a:focus, a:hover {
 }
 .chevron-background {
     font-size: 55px;
-    color: #f1729e;
+    color: #0089c1;
 }
 .owl-dot {
     width: 10px;
     height: 10px;
-    background-color: #f1729e;
+    background-color: #0089c1;
     border-radius: 10em;
     display: inline-block;
     margin: 10px;
@@ -116,7 +110,7 @@ a:focus, a:hover {
 }
 .owl-dot.active {
     background-color: #fff;
-    border: 2px solid #f1729e;
+    border: 2px solid #0089c1;
     transform: scale(1.5);
 }
 .owl-dots {
@@ -142,7 +136,7 @@ a:focus, a:hover {
     width: 100%;
     height: 2px;
     position: relative;
-    background-color: #00aab5;
+    background-color: #0089c1;
 }
 .title-block-hidden:before {
     margin-left: -100%;
@@ -160,28 +154,14 @@ a:focus, a:hover {
     margin-bottom: 40px;
 }
 .main-button {
-    position: relative;
-    display: inline-block;
-    padding: 15px 20px;
-    color: #ffffff;
-    background-image: -webkit-linear-gradient(350deg, #00aab4 0%, #00aab4 14%, #f1729d 65%);
-    background-image: -o-linear-gradient(350deg, #00aab4 0%, #00aab4 14%, #f1729d 65%);
-    background-image: linear-gradient(100deg, #00aab4 0%, #00aab4 14%, #f1729d 65%);
-    background-size: 150% 100%;
-    background-position: left center;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: none;
-    border-radius: 0;
-    -webkit-transition: background-position 0.6s ease;
-    -o-transition: background-position 0.6s ease;
-    transition: background-position 0.6s ease;
+    padding: 12px 22px;
+    color: #fff;
+    background-color: #0089c1;
+    border: 2px solid #0089c1;
 }
 .main-button:hover {
-    background-position: right center;
-    -webkit-transition: background-position 0.6s ease;
-    -o-transition: background-position 0.6s ease;
-    transition: background-position 0.6s ease;
+    color: #0089c1;
+    background-color: #fff;
 }
 .title-bottom-flex {
     display: flex;
@@ -189,7 +169,7 @@ a:focus, a:hover {
     justify-content: space-between;
 }
 .title-bottom-btn-text {
-    color: #00aab5;
+    color: #9d9d9d;
     margin: 15px 0 0px 0;
     font-size: 24px;
 }
@@ -217,16 +197,16 @@ button.close {
     border-radius: 2px;
 }
 .owl-feedback-form a {
-    background-color: #f1729e;
+    background-color: #0089c1;
     padding: 10px;
     color: #fff;
-    border: 2px solid #f1729e;
+    border: 2px solid #0089c1;
     border-radius: 4px;
     display: block;
     text-align: center;
 }
 .owl-feedback-form a:hover {
-    color: #f1729e;
+    color: #0089c1;
     background-color: #fff;
 }
 .size-block-flex {
@@ -430,7 +410,7 @@ button.close {
     border: none;
 }
 .footer-page {
-    background-color: #00547b;
+    border-top: 2px solid #0089c1;
     padding: 40px 0;
     margin-top: 50px;
 }
@@ -441,12 +421,14 @@ button.close {
     color: #fff;
 }
 .footer-flex-block a {
-    color: #fff;
+    color: #0089c1;
+    border-bottom: 1px solid transparent;
     display: block;
     margin-bottom: 10px;
 }
 .footer-flex-block a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid #0089c1;
 }
 .call-manager-block {
     margin-bottom: 40px;
@@ -458,12 +440,12 @@ button.close {
     text-align: right;
 }
 .footer-copyright {
-    color: #fff;
+    color: #333;
     text-align: center;
     font-size: 12px;
 }
 .footer-copyright a {
-    color: #fff;
+    color: #333;
 }
 #button-up {
     display: none;
