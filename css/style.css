@@ -431,11 +431,11 @@ button.close {
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     color: #fff;
-    background-color: #f1729e;
+    background-color: #0089c1;
     border: none;
 }
 .nav-tabs > li > a {
-    color: #f1729e;
+    color: #0089c1;
     border: none;
 }
 .footer-page {
@@ -528,7 +528,7 @@ button.close {
     width: 49%;
 }
 .partners-block-item a {
-    color: #f1729e;
+    color: #0089c1;
 }
 .partners-block-item a:hover {
     color: #00aab5;
@@ -538,11 +538,11 @@ button.close {
     padding: 15px 0 15px 0;
 }
 .breadcrumb a, .breadcrumb span {
-    color: #f1729e;
+    color: #0089c1;
     padding: 0 2px;
 }
 .breadcrumb > .active {
-    color: #00aab5;
+    color: #9d9d9d;
 }
 .image-content-title-production {
     background-image: url("../images/prod.jpg");
@@ -591,11 +591,11 @@ button.close {
     text-align: center;
 }
 .page-address-item a {
-    color: #f1729e;
+    color: #0089c1;
     font-size: 24px;
 }
 .page-address-item a:hover {
-    color: #00aab5;
+    color: #9d9d9d;
 }
 .contact-page-map {
     margin-bottom: 40px;
