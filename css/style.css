@@ -613,7 +613,7 @@ button.close {
     margin-bottom: 20px;
     width: 24%;
     padding: 10px;
-    border: 1px solid #f1729e;
+    border: 1px solid #0089c1;
     border-radius: 4px;
 }
 .catalog-image {
@@ -649,7 +649,7 @@ button.close {
 .dealers-flex-item {
     width: 19%;
     padding: 10px;
-    border: 1px solid #f1729e;
+    border: 1px solid #0089c1;
     border-radius: 4px;
 }
 .red-star {
@@ -658,7 +658,7 @@ button.close {
 .owl-feedback-form .feedback-link {
     background-color: transparent;
     padding: 0;
-    color: #f1729e;
+    color: #0089c1;
     border: none;
     border-radius: 0;
     display: inline;
@@ -673,14 +673,14 @@ button.close {
     background-color: transparent;
 }
 .feedback-link {
-    color: #f1729e;
+    color: #0089c1;
 }
 .video-block {
     text-align: center;
     margin-bottom: 40px;
 }
 .flex-consumer i {
-    color: #f1729e;
+    color: #0089c1;
     font-size: 24px;
     margin-right: 12px;
 }
