@@ -755,6 +755,9 @@ button.close {
     .language {
         top: 285px;
     }
+    .product-sizes-div {
+        justify-content: space-around;
+    }
 }
 @media(max-width: 767px) {
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -766,7 +769,8 @@ button.close {
         position: relative;
     }
     .navbar-toggle {
-        background-color: #f1729e;
+        background-color: #0089c1;
+        margin-right: 0;
     }
     .navbar-toggle.active .icon-bar:nth-of-type(1) {
         top: 6px;
@@ -784,7 +788,7 @@ button.close {
         margin-bottom: 30px;
     }
     .iconblock-2 {
-        width: 32%;
+        width: 48%;
     }
     .footer-flex-block {
         flex-wrap: wrap;
@@ -823,6 +827,27 @@ button.close {
         top: 23px;
         right: 0;
         left: auto;
+    }
+    .image-size-prod {
+        margin-bottom: 20px;
+    }
+    .subtitle-page, .main-title, .title-bottom-slogan {
+        padding: 10px;
+    }
+    .image-text-block {
+        flex-direction: column-reverse;
+    }
+    .image-flex-block {
+        margin-bottom: 20px;
+    }
+    .image-flex-block, .image-flex-text, .flami-pic-images-item {
+        width: 100%;
+    }
+    .flami-pic-images {
+        flex-wrap: wrap;
+    }
+    .flami-pic-images-item {
+        margin-bottom: 20px;
     }
 }
 @media(max-width: 541px) {
@@ -870,7 +895,7 @@ button.close {
         padding: 10px;
     }
     .iconblock-2 h3 {
-        font-size: 12px;
+        font-size: 16px;
     }
     .main-sub-title:before {
         height: 24px;
@@ -916,5 +941,14 @@ button.close {
     }
     .dealers-flex-item {
         width: 48%;
+    }
+    .owl-carousel.owl-loaded {
+        display: none;
+    }
+    .title-bottom-btn {
+        margin-bottom: 40px;
+    }
+    .subtitle-page {
+        width: 100%;
     }
 }
