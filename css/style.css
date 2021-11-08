@@ -341,14 +341,14 @@ button.close {
     height: 64px;
     width: 64px;
     border-radius: 50%;
-    border: 4px solid #00aab5;
+    border: 4px solid #0089c1;
     margin: 0 auto;
-    color: #337AB7;
+    color: #0089c1;
     padding: 20px;
     box-sizing: content-box;
 }
 .iconblock-2:hover .icon {
-    border: 4px solid #337AB7;
+    border: 4px solid #0089c1;
 }
 .iconblock-2 .icon img {
     position: relative;
@@ -372,9 +372,16 @@ button.close {
 }
 .iconblock-2 h3{
     transition: all 0.2s ease 0s;
-    color: #00aab5;
+    color: #0089c1;
     font-size:20px;
     margin:8px 0;
+}
+.iconblock-2 svg {
+    fill: #0089c1;
+    height: 64px;
+    transition: all .3s linear;
+    position: relative;
+    z-index: 2;
 }
 .iconblock-2:hover h3{
     color: #000;
