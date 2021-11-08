@@ -47,7 +47,6 @@ a:focus, a:hover {
 }
 .order-button-click {
     padding: 12px 22px;
-    border-radius: 4px;
     color: #fff;
     background-color: #0089c1;
     border: 2px solid #0089c1;
@@ -123,6 +122,12 @@ a:focus, a:hover {
     overflow: hidden;
     text-align: center;
     margin-bottom: 40px;
+}
+.margin-bottom-block {
+    margin-bottom: 40px;
+}
+.image-size-prod img {
+    width: 248px;
 }
 .main-title, .main-sub-title {
     display: inline-block;
@@ -225,13 +230,13 @@ button.close {
 }
 .product-sizes-title {
     font-size: 24px;
-    color: #00aab5;
+    color: #0089c1;
     text-align: center;
 }
 .product-sizes-item {
     text-align: center;
     padding: 15px;
-    border: 1px solid #00aab5;
+    border: 1px solid #0089c1;
     width: 32%;
 }
 .product-sizes-item img {
@@ -244,6 +249,16 @@ button.close {
 }
 .product-sizes-item:hover img {
     transform: scale(1.1);
+}
+.flami-pic-images {
+    display: flex;
+    justify-content: space-between;
+}
+.flami-pic-images-item {
+    width: 48%;
+}
+.flami-pic-images-item img {
+    width: 100%;
 }
 .table-flex-row {
     display: flex;
@@ -435,6 +450,22 @@ button.close {
     text-decoration: none;
     border-bottom: 1px solid #0089c1;
 }
+.blue-block-text {
+    background-color: #0089c1;
+    color: #fff;
+    padding: 40px;
+}
+.image-text-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-flex-text, .image-flex-block {
+    width: 48%;
+}
+.image-flex-block img {
+    width: 100%;
+}
 .call-manager-block {
     margin-bottom: 40px;
 }
@@ -454,29 +485,24 @@ button.close {
 }
 #button-up {
     display: none;
-    right: 0;
+    right: 30px;
     margin: 0;
     position: fixed;
     bottom: 67px;
     outline: none;
-    width: 57px;
-    color: #333333;
+    color: #0089c1;
     line-height: 30px;
     text-decoration: none;
-    padding: 0px 0 0 28px;
-    background: url("../images/scrolltop.png") no-repeat 7px 11px transparent;
-    border-radius: 0 4px 4px 0;
-    -webkit-border-radius: 0 4px 4px 0;
-    -moz-border-radius: 0 4px 4px 0;
-    -o-border-radius: 0 4px 4px 0;
     cursor: pointer;
     z-index: 9;
-    background-size: 50px;
 }
-#button-up span {
-    display: block;
-    width: 56px;
-    height: 66px;
+#button-up::before {
+    font-family: FontAwesome;
+    content: "\f062";
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px 10.79px;
+    font-size: 22px;
 }
 .partners-color-green {
     color: #00aab5;
