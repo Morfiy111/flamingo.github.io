@@ -753,7 +753,7 @@ button.close {
 }
 @media(max-width: 767px) {
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-        background-color: #f1729e;
+        background-color: #0089c1;
         color: #fff;
     }
     .navbar-default .navbar-toggle .icon-bar {
