@@ -133,6 +133,7 @@ a:focus, a:hover {
     display: inline-block;
     vertical-align: middle;
     margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 .title-block-hidden:before, .title-block-hidden:after {
     content: "";
@@ -172,6 +173,7 @@ a:focus, a:hover {
 .subtitle-page {
     width: 350px;
     margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 .title-bottom-flex {
     display: flex;
