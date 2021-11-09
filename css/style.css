@@ -544,6 +544,18 @@ button.close {
 .breadcrumb > .active {
     color: #9d9d9d;
 }
+.contract-advantages {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contract-advantages .iconblock-2 {
+    margin-right: 20px;
+    width: 242px;
+}
+.contract-advantages-text {
+    width: 100%;
+}
 .image-content-title-production {
     background-image: url("../images/prod.jpg");
     position: relative;
@@ -950,5 +962,8 @@ button.close {
     }
     .subtitle-page {
         width: 100%;
+    }
+    .contract-advantages .iconblock-2 {
+        width: 112px;
     }
 }
