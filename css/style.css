@@ -399,7 +399,6 @@ button.close {
     width: 24%;
 }
 .image-content-title-about {
-    background-image: url("../images/bg-features-desktop.jpg");
     background-position: 77%;
     position: relative;
     padding: 30px 20px;
@@ -413,7 +412,7 @@ button.close {
     left: 0;
     bottom: 0;
     right: 0;
-    background: linear-gradient(to left, transparent 0, #fff 100%);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 .image-content-title-about p {
     position: relative;
@@ -654,6 +653,7 @@ button.close {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .dealers-flex-item img {
     width: 100%;
