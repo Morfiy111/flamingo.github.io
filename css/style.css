@@ -289,7 +289,7 @@ button.close {
 }
 .size-circle-green, .size-circle-blue {
     background-color: #fff;
-    color: #8576b6;
+    color: #00d3c6;
 }
 .title-table-moisture-text {
     display: flex;
@@ -304,20 +304,22 @@ button.close {
     justify-content: center;
 }
 .table-pink-color {
-    background-color: #8576b6;
+    background-color: #00d3c6;
     color: #fff;
 }
 .size-circle-pink {
-    background-color: #8576b6;
+    background-color: #00d3c6;
 }
 .size-circle-pink-dark {
-    background-color: #8576b6;
+    background-color: #00d3c6;
 }
 .table-border-size {
-    border:1px solid #8576b6;
+    border:1px solid #00d3c6;
     margin-bottom: 50px;
 }
-
+.oliv-border {
+    border-color: #00d3c6;
+}
 .main-sub-title3:before {
     width: 180px;
 }
@@ -741,6 +743,9 @@ button.close {
 }
 .footer-logo a:hover {
     border-color: transparent;
+}
+.oliv-color-block {
+    background-color: #00d3c6;
 }
 @media (min-width: 768px) {
     .navbar-nav {
