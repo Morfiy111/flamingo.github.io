@@ -266,7 +266,7 @@ button.close {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .table-flex-row img {
     width: 50px;
