@@ -287,8 +287,9 @@ button.close {
     align-items: center;
     justify-content: center;
 }
-.size-circle-green {
-    background-color: #00c278;
+.size-circle-green, .size-circle-blue {
+    background-color: #fff;
+    color: #8576b6;
 }
 .title-table-moisture-text {
     display: flex;
@@ -303,21 +304,20 @@ button.close {
     justify-content: center;
 }
 .table-pink-color {
-    background-color: rgba(241, 114, 158, 0.4);
+    background-color: #8576b6;
+    color: #fff;
 }
 .size-circle-pink {
-    background-color: #ff4c9f;
-}
-.size-circle-blue {
-    background-color: #586db8;
+    background-color: #8576b6;
 }
 .size-circle-pink-dark {
-    background-color: #e161a9;
+    background-color: #8576b6;
 }
 .table-border-size {
-    border:1px solid rgba(241, 114, 158, 0.4);
+    border:1px solid #8576b6;
     margin-bottom: 50px;
 }
+
 .main-sub-title3:before {
     width: 180px;
 }
@@ -325,10 +325,11 @@ button.close {
     text-align: center;
 }
 .goods-banner-block img {
-    width: 100%;
+    width: 50%;
 }
 .goods-banner-block {
     margin-bottom: 40px;
+    text-align: center;
 }
 .main-sub-title4:before {
     width: 118px;
@@ -553,7 +554,6 @@ button.close {
 .contract-advantages {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
 }
 .contract-advantages .iconblock-2 {
     margin-right: 20px;
