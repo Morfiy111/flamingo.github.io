@@ -418,7 +418,7 @@ button.close {
     background-color: rgba(255, 255, 255, 0.7);
 }
 .st0 {
-    fill: #0089c1;
+    fill: #6d247b;
 }
 
 .st1 {
@@ -705,6 +705,9 @@ button.close {
     font-size: 24px;
     margin-right: 12px;
 }
+.flami-border-color .icon {
+    border-color: #6d247b;
+}
 .flex-consumer {
     display: flex;
 }
@@ -725,7 +728,9 @@ button.close {
     flex-direction: column;
     z-index: 1;
 }
-
+.flami-color {
+    background-color: #6d247b;
+}
 .language__img {
     margin: 2px;
     cursor: pointer;
