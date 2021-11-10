@@ -223,7 +223,7 @@ button.close {
 }
 .size-block-flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .product-sizes-div {
@@ -232,14 +232,12 @@ button.close {
 }
 .product-sizes-title {
     font-size: 24px;
-    color: #0089c1;
+    color: #9078b4;
     text-align: center;
 }
 .product-sizes-item {
     text-align: center;
     padding: 15px;
-    border: 1px solid #0089c1;
-    width: 32%;
 }
 .product-sizes-item img {
     width: 33px;
@@ -251,6 +249,9 @@ button.close {
 }
 .product-sizes-item:hover img {
     transform: scale(1.1);
+}
+.image-size-prod {
+    text-align: center;
 }
 .flami-pic-images {
     display: flex;
@@ -317,8 +318,8 @@ button.close {
     border:1px solid #00d3c6;
     margin-bottom: 50px;
 }
-.oliv-border {
-    border-color: #00d3c6;
+.product-sizes-title-oliv {
+    color: #00d3c6;
 }
 .main-sub-title3:before {
     width: 180px;
