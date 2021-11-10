@@ -753,6 +753,16 @@ button.close {
 .oliv-color-block {
     background-color: #00d3c6;
 }
+.main-button-purple {
+    border-color: #6d247b;
+    background-color: #6d247b;
+}
+.main-button-purple:hover {
+    color: #6d247b;
+}
+.flami-border-color:hover .icon {
+    border: 4px solid #6d247b;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
